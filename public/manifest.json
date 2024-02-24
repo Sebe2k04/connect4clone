@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "C4C",
+  "name": "Connect 4 Clone",
   "icons": [
     {
       "src": "favicon.ico",
