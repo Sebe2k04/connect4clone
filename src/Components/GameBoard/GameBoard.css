@@ -1,0 +1,13 @@
+.GameBoard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 40px;
+    border: 5px solid rgb(238, 192, 134);
+}
+.GameBoard-Area{
+    filter: drop-shadow(1px 1px 20px rgb(234, 255, 0));
+}

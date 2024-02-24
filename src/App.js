@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import GameBoard from './Components/GameBoard/GameBoard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>
+          Connect 4 Clone
+        </h1>
       </header>
+      <div className="App-Content">
+      <GameBoard />
+      </div>
+      
+      <footer>
+        <p>GenRio @2024 All Rights Reserved</p>
+      </footer>
     </div>
   );
 }
