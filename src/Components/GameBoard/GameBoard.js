@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 import {isWinner,getComputerMove} from '../Helper/Helper';
 
 const NO_PLAYER = 0,PLAYER_1 = 1,PLAYER_2 = 2;
-const IDLE_STATE=0,PLAY_STATE=1,WIN_STATE=2,DRAW_STATE=3; 
+const PLAY_STATE=1,WIN_STATE=2,DRAW_STATE=3; 
 const no_circles = 16;
 const GameBoard = () => {
 
